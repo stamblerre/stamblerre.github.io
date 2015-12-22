@@ -36,8 +36,15 @@ a:focus {
     color: #eb3812;
 }
 
+/* -------- MY ADDITIONS -------- */
 a.icon-links {
     color: black;
+}
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 75px;
+    left: 25px;
 }
 
 h1,
@@ -142,7 +149,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(0,0,0,.7);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -182,7 +189,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -212,7 +219,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(0,0,0,1);
 }
 
 @media(min-width:768px) {
