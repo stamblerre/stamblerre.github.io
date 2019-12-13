@@ -1,0 +1,73 @@
+body {
+  background: white;
+}
+
+.container-fullscreen {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: calc(1rem + 3.9vw) !important;
+  font-weight: 100 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: 400 !important;
+}
+
+h1.bold {
+  font-weight: 800 !important;
+}
+
+.arrow-down--container {
+  cursor: pointer;
+}
+
+.arrow-down--container .shadow {
+  box-shadow: 0 0 100px -50px rgba(0, 0, 0, 0.40) !important;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.go-logo--container {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vh;
+  height: calc(2rem + 6vh);
+  width: auto;
+}
+
+.go-logo--container img {
+  height: 100%;
+  width: auto
+}
+
+img.icon {
+  height: auto;
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon--container {
+  display: inline-block;
+  margin: 0 3vw;
+}
+
+.container-main-content {
+  margin-top: -10vh;
+}
+
+.linkdin {
+  background: radial-gradient(black 70%, transparent 70%);
+  /* filter: invert(1); */
+}
+
+.talk-group {
+  margin-bottom: 1.5rem;
+}
